@@ -2,12 +2,12 @@
 function Navbar() {
   return (
     <>
-      <div className=" md:px-14">
-        <div className=" bg-blue-500">
-          <div className=" flex items-center justify-between">
+      <div className=" md:px-14 ">
+        <div className="  py-3 md:mt-7 fixed top-0 ">
+          <div className=" bg-gray-100 dark:bg-blue-500 py-3 flex items-center justify-between px-7 ">
             <h1 className=" text-black dark:text-white">R.</h1>
-            <div className="flex items-center justify-center">
-              <ul className=" text-white">
+            <div className="flex items-center justify-between px-7">
+              <ul className="flex text-black dark:text-white space-x-3">
                 <li>
                   <a href="">Accueil</a>
                 </li>

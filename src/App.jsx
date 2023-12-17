@@ -28,13 +28,17 @@ function App() {
 
   return (
     <>
-      <button
-        type="button"
-        className="fixed z-10 right-2 top-2 text-lg p-3 rounded-md"
-        onClick={handleThemeSwitch}
-      >
-        {theme === "dark" ? <BsMoonStarsFill className=" text-white text-2xl" /> : <LuSunMoon className=" text-black text-2xl" />}
-      </button>
+        <button
+          type="button"
+          className="fixed z-10 right-2 top-2 text-lg p-3 rounded-md mt-1"
+          onClick={handleThemeSwitch}
+        >
+          {theme === "dark" ? (
+            <BsMoonStarsFill className=" text-white text-2xl" />
+          ) : (
+            <LuSunMoon className=" text-black text-2xl" />
+          )}
+        </button>
       <div className=" font-jost bg:white dark:bg-slate-900">
         <Home />
       </div>
