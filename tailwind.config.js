@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontfamily: {
-        jost:['Jost', 'sans-serif']
+        jost:['Jost', 'sans-serif'],
       },
     },
   },
