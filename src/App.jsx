@@ -7,6 +7,7 @@ import { BiMenuAltRight } from "react-icons/bi";
 import { HiOutlineXMark } from "react-icons/hi2";
 import Service from "./component/service/Service";
 import Work from "./component/works/Work";
+import About from "./component/about/About";
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
     { link: "Accueil", path: "accueil" },
     { link: "A propos", path: "about" },
     { link: "Services", path: "service" },
-    { link: "Contact", path: "contact" },
+    { link: "Projets", path: "projet" },
   ];
 
   return (
@@ -140,6 +141,7 @@ function App() {
 
       <div className=" font-jost bg:white dark:bg-slate-900">
         <Home />
+        <About />
         <Service />
         <Work />
       </div>

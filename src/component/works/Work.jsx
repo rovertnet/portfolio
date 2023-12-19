@@ -4,7 +4,7 @@ import DataWork from "./DataWork";
 
 function Work() {
   return (
-    <div className="py-4">
+    <div className=" py-6" id="projet">
       <SectionTitle id="works">Projets récents</SectionTitle>
       <div className="md:mx-8 mx-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
         {DataWork.map((work) => (
