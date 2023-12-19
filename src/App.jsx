@@ -46,7 +46,7 @@ function App() {
   return (
     <>
       <div className="md:px-14 max-w-screen-2xl mx-auto">
-        <div className=" dark:bg-blue-300 mx-14 bg-gray-900 px-5 py-2 md:mt-3 mt-5 fixed top-0 right-0 left-0 shadow-md">
+        <div className=" dark:bg-blue-300 rounded-md md:mx-8 mx-6 bg-gray-900 px-5 py-2 md:mt-3 mt-5 fixed top-0 right-0 left-0 shadow-md">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-10 ">
               <a href="#">
@@ -115,7 +115,7 @@ function App() {
 
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-16 w-[400] justify-center px-6 py-3 pb-5 mx-14 dark:bg-blue-300 bg-slate-900 ${
+          className={` space-y-4 mt-16 w-[400] justify-center px-6 py-3 pb-5 mx-6 dark:bg-blue-300 bg-slate-900 ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "

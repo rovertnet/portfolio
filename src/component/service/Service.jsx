@@ -4,9 +4,9 @@ import Items from "./Items";
 
 function Service() {
   return (
-    <div className=" py-6">
+    <div className=" py-6" id="service">
       <SectionTitle>Services</SectionTitle>
-      <div>
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:grid-cols-1">
         {Data.map(dats => (
             <Items 
                 key={dats.title} 

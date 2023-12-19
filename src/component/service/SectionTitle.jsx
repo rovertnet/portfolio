@@ -5,7 +5,7 @@ function SectionTitle({ children, id }) {
     <div>
         <h1 
             id={id && id} 
-            className=" text-3xl font-bold mb-5 text-blue-300 text-center pb-6 dark:text-blue-300"
+            className=" text-3xl font-bold md:px-8 px-6 text-blue-300 pb-3 dark:text-blue-300"
         >
             {children}
         </h1>
