@@ -5,7 +5,7 @@ import { BsMoonStarsFill } from "react-icons/bs";
 import { LuSunMoon } from "react-icons/lu";
 import { BiMenuAltRight } from "react-icons/bi";
 import { HiOutlineXMark } from "react-icons/hi2";
-import Service from "./component/Service";
+import Service from "./component/service/Service";
 
 
 function App() {
