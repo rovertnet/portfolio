@@ -95,7 +95,7 @@ function App() {
                 {theme === "dark" ? (
                   <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
                 ) : (
-                  <LuSunMoon className=" text-blue-300 text-2xl" />
+                  <LuSunMoon className=" text-blue-300 text-2xl hover:text-slate-900" />
                 )}
               </button>
 
