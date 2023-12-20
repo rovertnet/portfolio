@@ -1,21 +1,29 @@
 import SectionTitle from "../service/SectionTitle"
 import WorkItems from "./WorkItems";
 import DataWork from "./DataWork";
+import { fadeIn } from "../../Variants";
+import {motion} from "framer-motion";
 
 function Work() {
   return (
     <div className=" py-6" id="projet">
       <SectionTitle id="works">Projets récents</SectionTitle>
-      <div className="md:mx-8 mx-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+      <motion.div
+        variants={fadeIn("down", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="md:mx-8 mx-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5"
+      >
         {DataWork.map((work) => (
-          <WorkItems 
+          <WorkItems
             key={work.titre}
             imageUrl={work.imageUrl}
             titre={work.titre}
             tech={work.tech}
           ></WorkItems>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import SectionTitle from "../service/SectionTitle";
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import { fadeIn } from "../../Variants";
 
 function About() {
   return (
@@ -9,16 +10,26 @@ function About() {
     >
       <div className="w-full md:w-6/6">
         <SectionTitle>A propos</SectionTitle>
-        <p className=" text-lg text-gray-600 dark:text-slate-300 md:px-8 px-6 text-justify">
+        <motion.p
+          variants={fadeIn("down", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className=" text-lg text-gray-600 dark:text-slate-300 md:px-8 px-6 text-justify"
+        >
           En tant que professionnel du développement web et de l'ingénierie
           logicielle, ma mission principale est de concevoir et mettre en œuvre
           des solutions numériques efficaces et innovantes. Mon expertise se
           concentre sur la création de sites web, d'applications et de systèmes
           logiciels, en veillant à respecter les normes de sécurité et de
           performance.
-        </p>
+        </motion.p>
       </div>
       <motion.div
+        variants={fadeIn("down", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
         className=" md:px-8 px-6"
       >
         <img

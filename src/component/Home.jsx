@@ -1,3 +1,5 @@
+import {motion} from "framer-motion";
+import { fadeIn } from "../Variants";
 
 function Home() {
   return (
@@ -6,7 +8,13 @@ function Home() {
         className=" md:px-16 pt-12 pb-5 flex flex-col justify-center items-center"
         id="accueil"
       >
-        <div className=" text-center mt-12">
+        <motion.div
+          variants={fadeIn("down", 0.3)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className=" text-center mt-12"
+        >
           <h1 className=" text-xl md:text-2xl mt-10 mb-1 md:mb-3 text-blue-400 font-semibold font-jost">
             Hey, je suis Robert Matundu,{" "}
           </h1>
@@ -24,7 +32,7 @@ function Home() {
           >
             Voir projet
           </a>
-        </div>
+        </motion.div>
       </div>
     </>
   );
