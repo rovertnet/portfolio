@@ -19,7 +19,7 @@ function Home() {
             et JavaScript.
           </p>
           <a
-            href="#"
+            href="#projet"
             className=" inline-block px-8 py-3 border border-transparent text-base font-medium rounded-md bg-blue-400 text-white hover:bg-blue-300 md:text-md"
           >
             Voir projet
