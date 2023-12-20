@@ -23,13 +23,13 @@ function Footer() {
         </span>
       </a>
       <div className=" flex items-center justify-center text-xl md:text-2xl text-slate-800 dark:text-gray-300 space-x-3 pb-5 md:pb-7">
-        <FaInstagramSquare />
-        <BsTwitterX />
-        <FaLinkedinIn />
-        <FaFacebookF />
-        <FaSquareGithub />
+        <FaInstagramSquare className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
+        <BsTwitterX className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
+        <FaLinkedinIn className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
+        <FaFacebookF className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
+        <FaSquareGithub className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
         <a href="mailto:matundukabamba@gmail.com">
-          <RiMailFill />
+          <RiMailFill className="cursor-pointer dark:hover:-translate-y-4 hover:-translate-y-4 transition-all duration-300" />
         </a>
       </div>
       <p className=" text-slate-800 dark:text-gray-300 text-xs md:text-sm">
