@@ -46,6 +46,8 @@ function App() {
     { link: "Projets", path: "projet" },
   ];
 
+  
+
   return (
     <>
       <div className="md:px-14 max-w-screen-2xl mx-auto">
@@ -82,7 +84,7 @@ function App() {
                 {theme === "dark" ? (
                   <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
                 ) : (
-                  <LuSunMoon className=" text-blue-300 text-2xl" />
+                  <LuSunMoon className=" text-blue-300 text-2xl hover:text-slate-900" />
                 )}
               </button>
             </div>
@@ -95,7 +97,7 @@ function App() {
                 {theme === "dark" ? (
                   <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
                 ) : (
-                  <LuSunMoon className=" text-blue-300 text-2xl hover:text-slate-900" />
+                  <LuSunMoon className=" text-blue-300 text-2xl" />
                 )}
               </button>
 

@@ -1,8 +1,12 @@
-import SectionTitle from "../service/SectionTitle"
+import SectionTitle from "../service/SectionTitle";
+import { motion } from "framer-motion"
 
 function About() {
   return (
-    <div id="about" className=" flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 py-6">
+    <div
+      id="about"
+      className=" flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 py-6"
+    >
       <div className="w-full md:w-6/6">
         <SectionTitle>A propos</SectionTitle>
         <p className=" text-lg text-gray-600 dark:text-slate-300 md:px-8 px-6 text-justify">
@@ -14,13 +18,15 @@ function About() {
           performance.
         </p>
       </div>
-      <div className=" md:px-8 px-6">
+      <motion.div
+        className=" md:px-8 px-6"
+      >
         <img
           src="../../public/mon_profile.png"
           alt="about"
           className="w-full md:w-6/6  rounded-md object-cover"
         />
-      </div>
+      </motion.div>
     </div>
   );
 }
