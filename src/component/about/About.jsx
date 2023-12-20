@@ -2,7 +2,7 @@ import SectionTitle from "../service/SectionTitle"
 
 function About() {
   return (
-    <div className=" flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 py-6">
+    <div id="about" className=" flex flex-col md:flex-row items-center justify-center gap-5 md:gap-10 py-6">
       <div className="w-full md:w-6/6">
         <SectionTitle>A propos</SectionTitle>
         <p className=" text-lg text-gray-600 dark:text-slate-300 md:px-8 px-6 text-justify">
