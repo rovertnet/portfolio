@@ -8,6 +8,7 @@ import { HiOutlineXMark } from "react-icons/hi2";
 import Service from "./component/service/Service";
 import Work from "./component/works/Work";
 import About from "./component/about/About";
+import Footer from "./component/footer/Footer";
 
 
 function App() {
@@ -144,6 +145,7 @@ function App() {
         <About />
         <Service />
         <Work />
+        <Footer />
       </div>
     </>
   );
