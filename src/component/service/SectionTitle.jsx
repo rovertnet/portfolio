@@ -9,7 +9,7 @@ function SectionTitle({ children, id }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
         id={id && id}
-        className=" text-3xl font-bold md:px-8 px-6 text-blue-300 pb-3 dark:text-blue-300"
+        className=" text-3xl font-bold md:px-8 px-6 text-blue-300 md:pb-6 pb-5 dark:text-blue-300"
       >
         {children}
       </motion.h1>

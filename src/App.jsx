@@ -78,13 +78,13 @@ function App() {
             <div className=" space-x-12 hidden md:flex items-center">
               <button
                 type="button"
-                className=" hover:bg-slate-300 hover:rounded-full hover:p-2"
+                className=" hover:bg-slate-700 dark:hover:bg-green-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
                   <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
                 ) : (
-                  <LuSunMoon className=" text-blue-300 text-2xl hover:text-slate-900" />
+                  <LuSunMoon className=" text-blue-300 text-2xl hover:text-slate-400" />
                 )}
               </button>
             </div>
