@@ -1,7 +1,7 @@
 import SectionTitle from "../service/SectionTitle";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../Variants";
-import { FaArrowDown } from "react-icons/fa";
+import {FaArrowUp } from "react-icons/fa";
 
 function About() {
   return (
@@ -24,13 +24,12 @@ function About() {
           concentre sur la création de sites web, d'applications et de systèmes
           logiciels, en veillant à respecter les normes de sécurité et de
           performance.
-          <a
-            href="CV_Robert.pdf"
-            download
-            className="flex space-x-2 text-blue-700 dark:text-blue-500 dark:hover:text-blue-400 hover:text-blue-500 md:text-2xl text-xl "
-          >
-            Téléchargez CV <FaArrowDown className=""/>
-          </a>
+            <button className=" md:mt-5 mt-3 bg-slate-900 dark:bg-blue-500 text-xl rounded-md text-white dark:text-white py-2 px-14">
+              <a href="CV_Robert.pdf" download className=" flex gap-3">
+                Téléchargez CV{" "}
+                <FaArrowUp className="text-white dark:text-white text-2xl" />
+              </a>
+            </button>
         </motion.p>
       </div>
       <motion.div
