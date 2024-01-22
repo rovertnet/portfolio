@@ -12,7 +12,7 @@ function About() {
       <div className="w-full md:w-6/6">
         <SectionTitle>A propos</SectionTitle>
         <motion.p
-          variants={fadeIn("down", 0.3)}
+          variants={fadeIn("left", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
@@ -33,14 +33,14 @@ function About() {
         </motion.p>
       </div>
       <motion.div
-        variants={fadeIn("down", 0.3)}
+        variants={fadeIn("up", 0.5)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
         className=" md:px-8 px-6 md:mt-12 mt-10"
       >
         <img
-          src="../../public/mon_profile.png"
+          src="../../public/moi.png"
           alt="about"
           className="w-full md:w-6/6  rounded-md object-cover"
         />
