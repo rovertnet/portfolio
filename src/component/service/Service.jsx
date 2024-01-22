@@ -9,7 +9,7 @@ function Service() {
     <div className=" py-6" id="service">
       <SectionTitle>Services</SectionTitle>
       <motion.div
-        variants={fadeIn("down", 0.3)}
+        variants={fadeIn("up", 0.5)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}

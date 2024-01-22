@@ -9,7 +9,7 @@ function Work() {
     <div className=" md:py-10 py-14" id="projet">
       <SectionTitle id="works">Projets récents</SectionTitle>
       <motion.div
-        variants={fadeIn("down", 0.3)}
+        variants={fadeIn("up", 0.5)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
