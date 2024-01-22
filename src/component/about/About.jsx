@@ -26,16 +26,22 @@ function About() {
           performance.
         </motion.p>
         <div className="md:px-8 px-6">
-          <button className=" md:mt-5 mt-3 bg-slate-900 dark:bg-blue-500 text-xl rounded-md text-white dark:text-white py-2 px-14">
+          <motion.button
+            variants={fadeIn("up", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className=" md:mt-5 mt-3 bg-slate-900 dark:bg-blue-500 text-xl rounded-md text-white dark:text-white py-2 px-14"
+          >
             <a href="CV_Robert.pdf" download className=" flex gap-3">
               Téléchargez CV{" "}
               <FaArrowUp className="text-white dark:text-white text-2xl" />
             </a>
-          </button>
+          </motion.button>
         </div>
       </div>
       <motion.div
-        variants={fadeIn("up", 0.5)}
+        variants={fadeIn("up", 0.7)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
