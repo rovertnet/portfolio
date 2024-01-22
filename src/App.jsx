@@ -10,6 +10,7 @@ import Work from "./component/works/Work";
 import About from "./component/about/About";
 import Footer from "./component/footer/Footer";
 import ProgressScroll from "./component/ProgressScroll";
+import Teams from "./component/teams/Teams";
 
 
 function App() {
@@ -149,6 +150,7 @@ function App() {
         <About />
         <Service />
         <Work />
+        <Teams />
         <Footer />
       </div>
     </>
