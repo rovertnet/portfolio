@@ -54,7 +54,7 @@ function App() {
     <>
       <ProgressScroll />
       <div className="md:px-14 max-w-screen-2xl mx-auto">
-        <div className=" dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... rounded-md md:mx-8 mx-6 bg-gray-900 px-5 py-2 md:mt-3 mt-5 fixed top-0 right-0 left-0 shadow-md">
+        <div className=" dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... rounded-md md:mx-8 mx-6 bg-gray-900 px-5 py-5 md:mt-8 mt-6 fixed top-0 right-0 left-0 shadow-md">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-10 ">
               <a href="#">
