@@ -25,13 +25,18 @@ function About() {
           logiciels, en veillant à respecter les normes de sécurité et de
           performance.
         </motion.p>
-        <div className="md:px-8 px-6">
+        <div className="md:px-8 px-6 md:mt-5 mt-3">
           <motion.button
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className=" md:mt-5 mt-3 bg-slate-900 dark:bg-blue-500 text-xl rounded-md text-white dark:text-white py-2 px-14"
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 9px rgb(255, 255, 255)",
+              boxShadow: "0px 0px 9px rgb(255, 255, 255)",
+            }}
+            className=" md:mt-5 mt-3 bg-slate-900 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... text-xl rounded-md text-white dark:text-white py-2 px-14"
           >
             <a href="CV_Robert.pdf" download className=" flex gap-3">
               Téléchargez CV{" "}

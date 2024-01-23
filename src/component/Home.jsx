@@ -26,12 +26,17 @@ function Home() {
             ligne exceptionnelles en utilisant des langages tels que HTML, CSS
             et JavaScript.
           </p>
-          <a
+          <motion.a
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 9px rgb(255, 255, 255)",
+              boxShadow: "0px 0px 9px rgb(255, 255, 255)",
+            }}
             href="#projet"
             className=" inline-block px-8 py-3 border border-transparent text-base font-medium rounded-md bg-blue-400 text-white hover:bg-blue-300 md:text-md"
           >
             Voir projet
-          </a>
+          </motion.a>
         </motion.div>
       </div>
     </>
