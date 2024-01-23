@@ -54,7 +54,7 @@ function App() {
     <>
       <ProgressScroll />
       <div className="md:px-14 max-w-screen-2xl mx-auto">
-        <div className=" dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... rounded-md md:mx-8 mx-6 bg-gray-900 px-5 py-5 md:mt-8 mt-6 fixed top-0 right-0 left-0 shadow-md">
+        <div className=" dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... rounded-md md:mx-8 mx-6 bg-gray-900 px-5 py-4 md:mt-8 mt-6 fixed top-0 right-0 left-0 shadow-md">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-10 ">
               <a href="#">
@@ -123,7 +123,7 @@ function App() {
 
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-16 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-slate-900 ${
+          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-slate-900 ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
