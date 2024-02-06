@@ -4,11 +4,11 @@ function Teams() {
   return (
     <>
       <div className="md:mx-8 mx-6 bg-slate-400 dark:bg-slate-800 md:my-14 my-10 rounded-md">
-        <div className="md:h-full h-full md:py-6 py-6">
+        <div className="md:h-full h-full md:py-6 py-3">
           <SectionTitle>Entreprises et Clients</SectionTitle>
         </div>
 
-        <div className="container my-24 mx-auto md:px-6 md:py-7 py-10">
+        <div className="container my-24 mx-auto md:px-6 px-6 md:py-7 py-10">
           <section className="mb-32 text-center">
             <div className="grid gap-x-6 md:grid-cols-4 lg:gap-x-12">
               <div className="mb-24 md:mb-0">
