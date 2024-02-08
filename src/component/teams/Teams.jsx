@@ -8,7 +8,7 @@ function Teams() {
 
         <div className=" my-14 md:py-7 py-10">
           <section className="mb-32 text-center">
-            <div className="grid gap-x-6 md:grid-cols-4 lg:gap-x-12">
+            <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
               <div className="mb-24 md:mb-0">
                 <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                   <div className="flex justify-center">
