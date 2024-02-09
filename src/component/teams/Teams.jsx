@@ -10,7 +10,7 @@ function Teams() {
           <section className="mb-32 text-center">
             <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
               <div className="mb-24 md:mb-0">
-                <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-800">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
@@ -66,7 +66,7 @@ function Teams() {
               </div>
 
               <div className="mb-24 md:mb-0">
-                <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-800">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
@@ -120,7 +120,7 @@ function Teams() {
               </div>
 
               <div className="">
-                <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+                <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-800">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
