@@ -1,4 +1,5 @@
 import SectionTitle from "../service/SectionTitle";
+import { motion } from "framer-motion";
 
 function Teams() {
   return (
