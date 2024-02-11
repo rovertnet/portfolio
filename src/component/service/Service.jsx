@@ -13,7 +13,7 @@ function Service() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-2 md:gap-10"
+        className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-2"
       >
         {Data.map((dats) => (
           <Items
@@ -28,4 +28,4 @@ function Service() {
   );
 }
 
-export default Service
+export default Service;
