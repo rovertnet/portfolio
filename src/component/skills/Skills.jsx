@@ -4,7 +4,8 @@ import { IoLogoCss3 } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
-import { SiFramer } from "react-icons/si";
+import { GrWordpress } from "react-icons/gr";
+import { TbBrandMysql } from "react-icons/tb";
 
 function Skills() {
   return (
@@ -39,8 +40,8 @@ function Skills() {
                   Next js
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiFramer className=" text-2xl md:text-2xl dark:text-slate-900 text-white" />
-                  Motion
+                  <GrWordpress className=" text-2xl md:text-2xl dark:text-slate-900 text-white" />
+                  WordPress
                 </span>
               </div>
             </div>
@@ -70,8 +71,8 @@ function Skills() {
                   Next js
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiFramer className=" text-2xl md:text-2xl dark:text-slate-900 text-white" />
-                  Motion
+                  <TbBrandMysql className=" text-2xl md:text-2xl dark:text-slate-500 text-white" />
+                  MySQL
                 </span>
               </div>
             </div>
