@@ -11,6 +11,7 @@ import About from "./component/about/About";
 import Footer from "./component/footer/Footer";
 import ProgressScroll from "./component/ProgressScroll";
 import Teams from "./component/teams/Teams";
+import Skills from "./component/skills/Skills";
 
 
 function App() {
@@ -150,6 +151,7 @@ function App() {
         <About />
         <Service />
         <Work />
+        <Skills />
         <Teams />
         <Footer />
       </div>
