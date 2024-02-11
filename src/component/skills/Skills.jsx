@@ -1,5 +1,9 @@
 import SectionTitle from "../service/SectionTitle";
 import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+import { FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 function Skills() {
   return (
@@ -12,10 +16,30 @@ function Skills() {
               <h2 className=" font-bold text-slate-100 dark:text-slate-100 text-3xl md:text-2xl">
                 Front End
               </h2>
-              <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-2 md:py-7 py-5">
-                <span className=" text-slate-300 dark:text-slate-100 flex space-x-3 font-medium text-lg md:text-xl">
-                  <FaHtml5 className=" text-2xl md:text-2xl text" />
+              <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
+                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <FaHtml5 className=" text-2xl md:text-2xl text-blue-600" />
                   HTML
+                </span>
+                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <IoLogoCss3 className=" text-2xl md:text-2xl text-orange-500" />
+                  CSS
+                </span>
+                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <FaReact className=" text-2xl md:text-2xl text-blue-300" />
+                  React js
+                </span>
+                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <SiTailwindcss className=" text-2xl md:text-2xl text-blue-400" />
+                  Tailwindcss
+                </span>
+                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <SiNextdotjs className=" text-2xl md:text-2xl text-slate-100" />
+                  Next js
+                </span>
+                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <SiNextdotjs className=" text-2xl md:text-2xl text-slate-100" />
+                  Next js
                 </span>
               </div>
             </div>
