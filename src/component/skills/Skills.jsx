@@ -11,6 +11,8 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { motion } from "framer-motion"; 
+import { fadeIn } from "../../Variants";
 
 function Skills() {
   return (
@@ -19,7 +21,13 @@ function Skills() {
         <SectionTitle className=" text-center">Compétences</SectionTitle>
         <div className="md:px-8 px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-14">
-            <div className=" bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
+            <motion.div
+              variants={fadeIn("left", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className=" bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5"
+            >
               <h2 className=" font-extrabold text-slate-800 dark:text-slate-100 text-3xl md:text-2xl">
                 Front End
               </h2>
@@ -49,8 +57,14 @@ function Skills() {
                   WordPress
                 </span>
               </div>
-            </div>
-            <div className="bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("up", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5"
+            >
               <h2 className="font-extrabold text-slate-800 dark:text-slate-100 text-3xl md:text-2xl">
                 Back End
               </h2>
@@ -80,7 +94,7 @@ function Skills() {
                   MySQL
                 </span>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
