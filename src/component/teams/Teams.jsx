@@ -1,3 +1,4 @@
+import { fadeIn } from "../../Variants";
 import SectionTitle from "../service/SectionTitle";
 import { motion } from "framer-motion";
 
@@ -9,22 +10,30 @@ function Teams() {
         <div className=" my-5 md:py-7 py-10">
           <section className=" text-center">
             <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
-              <motion.div className="mb-24 md:mb-0">
+              <motion.div
+                variants={fadeIn("down", 0.3)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="mb-24 md:mb-0"
+              >
                 <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-800">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/new/avatars/6.jpg"
+                        src="../../public/1.jpg"
                         className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                         alt="Avatar"
                       />
                     </div>
                   </div>
                   <div className="p-6">
-                    <h5 className="mb-4 text-lg font-bold">Marta Smith</h5>
-                    <p className="mb-6">Frontend Developer</p>
+                    <h5 className="mb-4 text-lg font-bold dark:text-slate-50">
+                      Bestech Consult
+                    </h5>
+                    <p className="mb-6 dark:text-slate-300">Informatique</p>
                     <ul className="mx-auto flex list-inside justify-center">
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -36,7 +45,7 @@ function Teams() {
                           />
                         </svg>
                       </a>
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -48,7 +57,7 @@ function Teams() {
                           />
                         </svg>
                       </a>
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
