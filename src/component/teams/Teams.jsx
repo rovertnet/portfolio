@@ -74,7 +74,13 @@ function Teams() {
                 </div>
               </motion.div>
 
-              <motion.div className="mb-24 md:mb-0">
+              <motion.div
+                variants={fadeIn("right", 0.5)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="mb-24 md:mb-0"
+              >
                 <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-800">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
@@ -86,10 +92,12 @@ function Teams() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h5 className="mb-4 text-lg font-bold">Darren Randolph</h5>
-                    <p className="mb-6">Marketing expert</p>
+                    <h5 className="mb-4 text-lg font-bold dark:text-white">
+                      Darren Randolph
+                    </h5>
+                    <p className="mb-6 dark:text-slate-300">Marketing expert</p>
                     <ul className="mx-auto flex list-inside justify-center">
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           className="h-4 w-4 text-primary dark:text-primary-400"
@@ -99,7 +107,7 @@ function Teams() {
                           <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
                         </svg>
                       </a>
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -111,7 +119,7 @@ function Teams() {
                           />
                         </svg>
                       </a>
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -128,7 +136,13 @@ function Teams() {
                 </div>
               </motion.div>
 
-              <motion.div className="">
+              <motion.div
+                variants={fadeIn("up", 0.7)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className=""
+              >
                 <div className="block h-full rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-slate-800">
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
