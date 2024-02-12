@@ -12,13 +12,10 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 
-
-
-
 function Skills() {
   return (
     <>
-      <div className=" md:my-5 my-7">
+      <div className=" md:my-16 my-7">
         <SectionTitle className=" text-center">Compétences</SectionTitle>
         <div className="md:px-8 px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-14">
@@ -48,7 +45,7 @@ function Skills() {
                   Next js
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <GrWordpress className=" text-2xl md:text-2xl dark:text-slate-900 text-white" />
+                  <GrWordpress className=" text-2xl md:text-2xl text-blue-400" />
                   WordPress
                 </span>
               </div>
@@ -59,11 +56,11 @@ function Skills() {
               </h2>
               <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <FaLaravel className=" text-2xl md:text-2xl text-blue-600" />
+                  <FaLaravel className=" text-2xl md:text-2xl text-red-500" />
                   Laravel
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <FaNodeJs className=" text-2xl md:text-2xl text-orange-500" />
+                  <FaNodeJs className=" text-2xl md:text-2xl text-green-600" />
                   Node js
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
@@ -71,11 +68,11 @@ function Skills() {
                   Express
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiMongodb className=" text-2xl md:text-2xl text-blue-400" />
+                  <SiMongodb className=" text-2xl md:text-2xl text-green-400" />
                   MongoDB
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiPostman className=" text-2xl md:text-2xl text-slate-100" />
+                  <SiPostman className=" text-2xl md:text-2xl text-orange-500" />
                   PostMan
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
