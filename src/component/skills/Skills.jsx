@@ -10,6 +10,7 @@ import { FaLaravel } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
 
 
 
@@ -74,7 +75,7 @@ function Skills() {
                   MongoDB
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiNextdotjs className=" text-2xl md:text-2xl text-slate-100" />
+                  <SiPostman className=" text-2xl md:text-2xl text-slate-100" />
                   PostMan
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
