@@ -6,6 +6,13 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { GrWordpress } from "react-icons/gr";
 import { TbBrandMysql } from "react-icons/tb";
+import { FaLaravel } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+
+
+
 
 function Skills() {
   return (
@@ -51,19 +58,19 @@ function Skills() {
               </h2>
               <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <FaHtml5 className=" text-2xl md:text-2xl text-blue-600" />
+                  <FaLaravel className=" text-2xl md:text-2xl text-blue-600" />
                   Laravel
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <IoLogoCss3 className=" text-2xl md:text-2xl text-orange-500" />
+                  <FaNodeJs className=" text-2xl md:text-2xl text-orange-500" />
                   Node js
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <FaReact className=" text-2xl md:text-2xl text-blue-300" />
+                  <SiExpress className=" text-2xl md:text-2xl text-blue-300" />
                   Express
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiTailwindcss className=" text-2xl md:text-2xl text-blue-400" />
+                  <SiMongodb className=" text-2xl md:text-2xl text-blue-400" />
                   MongoDB
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
