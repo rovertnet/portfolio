@@ -11,7 +11,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
-import { motion } from "framer-motion"; 
+import { motion } from "framer-motion";
 import { fadeIn } from "../../Variants";
 
 function Skills() {
@@ -59,10 +59,10 @@ function Skills() {
               </div>
             </motion.div>
             <motion.div
-              variants={fadeIn("up", 0.3)}
+              variants={fadeIn("up", 0.7)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.9 }}
               className="bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5"
             >
               <h2 className="font-extrabold text-slate-800 dark:text-slate-100 text-3xl md:text-2xl">
