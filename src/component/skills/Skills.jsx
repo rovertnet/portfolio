@@ -19,33 +19,33 @@ function Skills() {
         <SectionTitle className=" text-center">Compétences</SectionTitle>
         <div className="md:px-8 px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-14">
-            <div className=" bg-slate-100 dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
-              <h2 className=" font-bold text-slate-100 dark:text-slate-100 text-3xl md:text-2xl">
+            <div className=" bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
+              <h2 className=" font-extrabold text-slate-800 dark:text-slate-100 text-3xl md:text-2xl">
                 Front End
               </h2>
               <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <FaHtml5 className=" text-2xl md:text-2xl text-blue-600" />
                   HTML
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <IoLogoCss3 className=" text-2xl md:text-2xl text-orange-500" />
                   CSS
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <FaReact className=" text-2xl md:text-2xl text-blue-300" />
                   React js
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <SiTailwindcss className=" text-2xl md:text-2xl text-blue-400" />
                   Tailwindcss
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiNextdotjs className=" text-2xl md:text-2xl text-slate-100" />
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <SiNextdotjs className=" text-2xl md:text-2xl text-slate-900" />
                   Next js
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <GrWordpress className=" text-2xl md:text-2xl text-blue-400" />
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <GrWordpress className=" text-2xl md:text-2xl text-blue-500" />
                   WordPress
                 </span>
               </div>
@@ -55,28 +55,28 @@ function Skills() {
                 Back End
               </h2>
               <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <FaLaravel className=" text-2xl md:text-2xl text-red-500" />
                   Laravel
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <FaNodeJs className=" text-2xl md:text-2xl text-green-600" />
                   Node js
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <SiExpress className=" text-2xl md:text-2xl text-blue-300" />
                   Express
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <SiMongodb className=" text-2xl md:text-2xl text-green-400" />
                   MongoDB
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <SiPostman className=" text-2xl md:text-2xl text-orange-500" />
                   PostMan
                 </span>
-                <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <TbBrandMysql className=" text-2xl md:text-2xl  text-slate-800 dark:text-white" />
+                <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
+                  <TbBrandMysql className=" text-2xl md:text-2xl text-slate-800 dark:text-white" />
                   MySQL
                 </span>
               </div>
