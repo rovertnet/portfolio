@@ -50,8 +50,8 @@ function Skills() {
                 </span>
               </div>
             </div>
-            <div className="bg-slate-600 dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
-              <h2 className="font-bold text-slate-100 dark:text-slate-100 text-3xl md:text-2xl">
+            <div className="bg-white shadow-md dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
+              <h2 className="font-extrabold text-slate-800 dark:text-slate-100 text-3xl md:text-2xl">
                 Back End
               </h2>
               <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
@@ -76,7 +76,7 @@ function Skills() {
                   PostMan
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <TbBrandMysql className=" text-2xl md:text-2xl  dark:text-slate-800 text-white" />
+                  <TbBrandMysql className=" text-2xl md:text-2xl  text-slate-800 dark:text-white" />
                   MySQL
                 </span>
               </div>
