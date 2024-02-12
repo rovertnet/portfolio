@@ -6,7 +6,7 @@ function Teams() {
   return (
     <>
       <SectionTitle>Clients</SectionTitle>
-      <div className="md:mx-8 mx-6 md:my-7 my-5 rounded-md md:mt-7 mt-7">
+      <div className="md:mx-8 mx-6 md:my-10 my-8 rounded-md">
         <div className=" my-5 md:py-7 py-10">
           <section className=" text-center">
             <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
@@ -93,9 +93,9 @@ function Teams() {
                   </div>
                   <div className="p-6">
                     <h5 className="mb-4 text-lg font-bold dark:text-white">
-                      Darren Randolph
+                      MAFRICOM
                     </h5>
-                    <p className="mb-6 dark:text-slate-300">Marketing expert</p>
+                    <p className="mb-6 dark:text-slate-300">Commercial</p>
                     <ul className="mx-auto flex list-inside justify-center">
                       <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
@@ -154,10 +154,10 @@ function Teams() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h5 className="mb-4 text-lg font-bold">Ayat Black</h5>
-                    <p className="mb-6">Web designer</p>
+                    <h5 className="mb-4 text-lg font-bold dark:text-white">La Colomb transfert</h5>
+                    <p className="mb-6 dark:text-slate-300">Transfert des fonds</p>
                     <ul className="mx-auto flex list-inside justify-center">
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -169,7 +169,7 @@ function Teams() {
                           />
                         </svg>
                       </a>
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
@@ -181,7 +181,7 @@ function Teams() {
                           />
                         </svg>
                       </a>
-                      <a href="#!" className="px-2">
+                      <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
