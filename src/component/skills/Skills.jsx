@@ -52,23 +52,23 @@ function Skills() {
               <div className=" grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-3 sm:grid-cols-1 md:py-7 py-5">
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <FaHtml5 className=" text-2xl md:text-2xl text-blue-600" />
-                  HTML
+                  Laravel
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <IoLogoCss3 className=" text-2xl md:text-2xl text-orange-500" />
-                  CSS
+                  Node js
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <FaReact className=" text-2xl md:text-2xl text-blue-300" />
-                  React js
+                  Express
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <SiTailwindcss className=" text-2xl md:text-2xl text-blue-400" />
-                  Tailwindcss
+                  MongoDB
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <SiNextdotjs className=" text-2xl md:text-2xl text-slate-100" />
-                  Next js
+                  PostMan
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <TbBrandMysql className=" text-2xl md:text-2xl dark:text-slate-500 text-white" />
