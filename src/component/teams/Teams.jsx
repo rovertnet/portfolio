@@ -11,7 +11,7 @@ function Teams() {
           <section className=" text-center">
             <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
               <motion.div
-                variants={fadeIn("down", 0.3)}
+                variants={fadeIn("left", 0.3)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.7 }}
