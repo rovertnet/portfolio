@@ -19,7 +19,7 @@ function Skills() {
         <SectionTitle className=" text-center">Compétences</SectionTitle>
         <div className="md:px-8 px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-14">
-            <div className=" bg-slate-900 dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
+            <div className=" bg-slate-100 dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
               <h2 className=" font-bold text-slate-100 dark:text-slate-100 text-3xl md:text-2xl">
                 Front End
               </h2>
@@ -50,7 +50,7 @@ function Skills() {
                 </span>
               </div>
             </div>
-            <div className="bg-slate-900 dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
+            <div className="bg-slate-600 dark:bg-slate-800 md:px-7 px-5 rounded-md  md:py-7 py-5">
               <h2 className="font-bold text-slate-100 dark:text-slate-100 text-3xl md:text-2xl">
                 Back End
               </h2>
@@ -76,7 +76,7 @@ function Skills() {
                   PostMan
                 </span>
                 <span className=" text-slate-300 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <TbBrandMysql className=" text-2xl md:text-2xl dark:text-slate-500 text-white" />
+                  <TbBrandMysql className=" text-2xl md:text-2xl  dark:text-slate-800 text-white" />
                   MySQL
                 </span>
               </div>
