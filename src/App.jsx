@@ -56,7 +56,7 @@ function App() {
           <div className="text-lg  container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-10 ">
               <a href="#">
-                <span className="  dark:text-slate-900 text-3xl font-extrabold font-jost text-blue-300">
+                <span className="  dark:text-slate-900 text-3xl font-extrabold font-jost text-white bg-black">
                   R.
                 </span>
               </a>
