@@ -83,7 +83,7 @@ function App() {
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
-                  <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
+                  <BsMoonStarsFill className=" text-slate-900 text-2xl " />
                 ) : (
                   <LuSunMoon className=" text-blue-300 text-2xl hover:text-slate-400" />
                 )}
