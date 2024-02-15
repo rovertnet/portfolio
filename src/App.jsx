@@ -107,10 +107,10 @@ function App() {
                 className=" text-white focus:outline-none focus:text-[#feff5b]"
               >
                 {showMenu ? (
-                  <HiOutlineXMark className=" h-8 w-8 text-black dark:text-slate-900 transition-all duration-300" />
+                  <HiOutlineXMark className=" h-8 w-8 text-black dark:text-white transition-all duration-300" />
                 ) : (
                   <div className="flex space-x-2">
-                    <BiMenuAltRight className=" h-10 w-10 transition-all duration-300 text-black dark:text-slate-900" />
+                    <BiMenuAltRight className=" h-10 w-10 transition-all duration-300 text-black dark:text-white" />
                   </div>
                 )}
               </button>
