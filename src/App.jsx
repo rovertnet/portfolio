@@ -13,30 +13,29 @@ import ProgressScroll from "./component/ProgressScroll";
 import Teams from "./component/teams/Teams";
 import Skills from "./component/skills/Skills";
 
-
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme('dark');
-    }else{
-        setTheme('light');
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
     }
   }, []);
 
   useEffect(() => {
-    if (theme === 'dark') {
-        document.documentElement.classList.add('dark')
-    }else{
-        document.documentElement.classList.remove('dark')
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
-  })
+  });
 
   const handleThemeSwitch = () => {
-    setTheme(theme === 'dark' ? 'light' : 'dark')
-  }
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -49,13 +48,11 @@ function App() {
     { link: "Projets", path: "projet" },
   ];
 
-  
-
   return (
     <>
       <ProgressScroll />
       <div className="md:px-14 max-w-screen-2xl mx-auto">
-        <div className=" dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... rounded-tl-md rounded-tr-md md:mx-8 mx-6 bg-gray-900 px-5 py-4 md:mt-8 mt-6 fixed top-0 right-0 left-0 shadow-md">
+        <div className=" dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... rounded-tl-md rounded-tr-md md:mx-8 mx-6 px-5 py-4 md:mt-8 mt-6 fixed top-0 right-0 left-0">
           <div className="text-lg  container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-10 ">
               <a href="#">
@@ -159,4 +156,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
