@@ -79,7 +79,7 @@ function App() {
             <div className=" space-x-12 hidden md:flex items-center">
               <button
                 type="button"
-                className=" hover:bg-slate-700 dark:hover:bg-slate-700 dark:hover:text-slate-300 hover:rounded-full dark:hover:p-2 hover:p-2"
+                className=""
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
