@@ -56,7 +56,7 @@ function App() {
           <div className="text-lg  container mx-auto flex justify-between items-center">
             <div className="flex items-center space-x-10 ">
               <a href="#">
-                <span className="  dark:text-slate-900 text-4xl font-extrabold font-jost text-slate-950">
+                <span className="  dark:text-white text-4xl font-extrabold font-jost text-slate-950">
                   R.
                 </span>
               </a>
@@ -83,7 +83,7 @@ function App() {
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
-                  <BsMoonStarsFill className=" text-slate-900 text-2xl " />
+                  <BsMoonStarsFill className=" text-white text-2xl " />
                 ) : (
                   <LuSunMoon className=" text-slate-900 text-2xl hover:text-slate-400" />
                 )}
