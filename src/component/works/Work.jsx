@@ -13,7 +13,7 @@ function Work() {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className="md:mx-8 mx-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5"
+        className="md:mx-8 mx-6 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-5"
       >
         {DataWork.map((work) => (
           <WorkItems

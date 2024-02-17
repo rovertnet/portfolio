@@ -10,11 +10,6 @@ export default [
     tech: ["HTML", "Tailwindcss", "React js vite"],
   },
   {
-    titre: "site reserve",
-    imageUrl: "https://portfolio-omega-two-26.vercel.app/p3.jpg",
-    tech: ["HTML", "Tailwindcss", "React js vite"],
-  },
-  {
     titre: "Portfolio",
     imageUrl: "https://portfolio-omega-two-26.vercel.app/p4.jpg",
     tech: ["HTML", "Tailwindcss", "React js vite"],
