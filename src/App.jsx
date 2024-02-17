@@ -117,7 +117,7 @@ function App() {
 
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-8 dark:bg-white/20 bg-slate-900/10 backdrop-blur-md ${
+          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-11 dark:bg-white/20 bg-slate-900/10 backdrop-blur-md ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
