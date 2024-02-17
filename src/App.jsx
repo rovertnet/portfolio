@@ -88,7 +88,7 @@ function App() {
             <div className="md:hidden space-x-2">
               <button
                 type="button"
-                className=" hover:bg-slate-300 hover:rounded-full hover:p-2"
+                className=""
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
