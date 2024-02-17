@@ -53,7 +53,7 @@ function About() {
         className=" md:px-8 px-6 md:mt-12 mt-10"
       >
         <img
-          src="../assets/moi.png"
+          src="https://portfolio-omega-two-26.vercel.app/moi.png"
           alt="about"
           className="w-full md:w-6/6  rounded-md object-cover"
         />
