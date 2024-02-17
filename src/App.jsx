@@ -77,11 +77,7 @@ function App() {
               </ul>
             </div>
             <div className=" space-x-12 hidden md:flex items-center">
-              <button
-                type="button"
-                className=""
-                onClick={handleThemeSwitch}
-              >
+              <button type="button" className="" onClick={handleThemeSwitch}>
                 {theme === "dark" ? (
                   <BsMoonStarsFill className=" text-white text-4xl " />
                 ) : (
@@ -96,9 +92,9 @@ function App() {
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
-                  <BsMoonStarsFill className=" text-white text-2xl " />
+                  <BsMoonStarsFill className=" text-white text-3xl " />
                 ) : (
-                  <LuSunMoon className=" text-black text-2xl" />
+                  <LuSunMoon className=" text-black text-3xl" />
                 )}
               </button>
 
@@ -107,10 +103,10 @@ function App() {
                 className=" text-white focus:outline-none focus:text-[#feff5b]"
               >
                 {showMenu ? (
-                  <HiOutlineXMark className=" h-8 w-8 text-black dark:text-white transition-all duration-300" />
+                  <HiOutlineXMark className=" h-8 w-8 text-black dark:text-white transition-all duration-300 text-3xl" />
                 ) : (
                   <div className="flex space-x-2">
-                    <BiMenuAltRight className=" h-10 w-10 transition-all duration-300 text-black dark:text-white" />
+                    <BiMenuAltRight className=" h-10 w-10 transition-all text-3xl duration-300 text-black dark:text-white" />
                   </div>
                 )}
               </button>
@@ -121,7 +117,7 @@ function App() {
 
       <div className="left-11 right-11">
         <div
-          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... bg-slate-900 ${
+          className={` space-y-4 mt-20 w-[400] rounded-br-md rounded-bl-md justify-center px-6 py-3 pb-5 mx-6 bg-white/20 backdrop-blur-md ${
             showMenu
               ? "block justify-center fixed top-0 right-0 left-0"
               : "hidden "
