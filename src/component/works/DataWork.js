@@ -6,7 +6,7 @@ export default [
   },
   {
     titre: "Site vitrine",
-    imageUrl: "https://portfolio-omega-two-26.vercel.app/p2.jpg",
+    imageUrl: "https://portfolio-omega-two-26.vercel.app/p3.jpg",
     tech: ["HTML", "Tailwindcss", "React js vite"],
   },
   {
