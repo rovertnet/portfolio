@@ -130,7 +130,7 @@ function App() {
               offset={-80}
               key={link}
               to={path}
-              className=" block dark:text-slate-900 dark:hover:text-white dark:hover:bg-[#1203541c] hover:py-2 cursor-pointer font-semibold text-xl text-center"
+              className=" block dark:text-slate-200 hover:text-slate-400 dark:hover:text-white dark:hover:bg-[#1203541c] hover:py-2 cursor-pointer font-semibold text-xl text-center"
               onClick={toggleMenu}
             >
               {link}
