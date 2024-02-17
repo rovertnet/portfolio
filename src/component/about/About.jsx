@@ -53,7 +53,7 @@ function About() {
         className=" md:px-8 px-6 md:mt-12 mt-10"
       >
         <img
-          src="../../public/moi.png"
+          src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
           alt="about"
           className="w-full md:w-6/6  rounded-md object-cover"
         />

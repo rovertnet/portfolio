@@ -21,7 +21,7 @@ function Teams() {
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
-                        src="../../public/moi.png"
+                        src="https://mdbcdn.b-cdn.net/img/new/avatars/8.jpg"
                         className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                         alt="Avatar"
                       />
@@ -154,8 +154,12 @@ function Teams() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h5 className="mb-4 text-lg font-bold dark:text-white">La Colomb transfert</h5>
-                    <p className="mb-6 dark:text-slate-300">Transfert des fonds</p>
+                    <h5 className="mb-4 text-lg font-bold dark:text-white">
+                      La Colomb transfert
+                    </h5>
+                    <p className="mb-6 dark:text-slate-300">
+                      Transfert des fonds
+                    </p>
                     <ul className="mx-auto flex list-inside justify-center">
                       <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
