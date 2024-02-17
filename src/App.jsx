@@ -96,9 +96,9 @@ function App() {
                 onClick={handleThemeSwitch}
               >
                 {theme === "dark" ? (
-                  <BsMoonStarsFill className=" text-Slate-900 text-2xl " />
+                  <BsMoonStarsFill className=" text-white text-2xl " />
                 ) : (
-                  <LuSunMoon className=" text-slate-900 text-2xl" />
+                  <LuSunMoon className=" text-black text-2xl" />
                 )}
               </button>
 
