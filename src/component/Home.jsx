@@ -33,7 +33,7 @@ function Home() {
               boxShadow: "0px 0px 9px rgb(255, 255, 255)",
             }}
             href="#projet"
-            className=" inline-block px-8 py-3 border border-transparent text-base font-medium rounded-md bg-blue-400 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... text-white hover:bg-blue-300 md:text-md"
+            className=" inline-block px-8 py-3 border border-transparent text-base font-medium rounded-md bg-slate-900 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... text-white hover:bg-blue-300 md:text-md"
           >
             Voir projet
           </motion.a>
