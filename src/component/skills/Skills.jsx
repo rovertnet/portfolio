@@ -17,7 +17,7 @@ import { fadeIn } from "../../Variants";
 function Skills() {
   return (
     <>
-      <div className=" md:my-16 my-7">
+      <div className=" md:my-16 my-7" id="skills">
         <SectionTitle className=" text-center">Compétences</SectionTitle>
         <div className="md:px-8 px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-14">
