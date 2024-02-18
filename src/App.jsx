@@ -139,7 +139,7 @@ function App() {
         </div>
       </div>
 
-      <div className=" font-jost bg:white dark:bg-slate-900 mx-0">
+      <div className=" font-jost bg:white dark:bg-slate-900">
         <Home />
         <About />
         <Service />
