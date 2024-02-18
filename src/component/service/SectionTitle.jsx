@@ -10,7 +10,7 @@ function SectionTitle({ children, id }) {
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className=" text-3xl font-bold md:px-8 px-6 text-blue-300 md:pb-6 pb-5 dark:text-blue-300"
+        className=" text-3xl font-bold md:px-8 px-6 text-slate-800 md:pb-6 pb-5 dark:text-blue-300"
       >
         {children}
       </motion.h1>
