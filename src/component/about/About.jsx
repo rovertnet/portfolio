@@ -1,7 +1,7 @@
 import SectionTitle from "../service/SectionTitle";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../Variants";
-import {FaArrowUp } from "react-icons/fa";
+import { FaArrowUp } from "react-icons/fa";
 
 function About() {
   return (
@@ -36,7 +36,7 @@ function About() {
               textShadow: "0px 0px 9px rgb(255, 255, 255)",
               boxShadow: "0px 0px 9px rgb(255, 255, 255)",
             }}
-            className=" md:mt-5 mt-3 bg-slate-900 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... text-xl rounded-md text-white dark:text-white py-2 px-14"
+            className=" md:mt-5 mt-3 bg-slate-900 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ... text-xl rounded-md text-white dark:text-white py-2 px-24 md:px-14"
           >
             <a href="CV_Robert.pdf" download className=" flex gap-3">
               Téléchargez CV{" "}
@@ -62,4 +62,4 @@ function About() {
   );
 }
 
-export default About
+export default About;
