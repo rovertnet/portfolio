@@ -46,6 +46,7 @@ function App() {
     { link: "A propos", path: "about" },
     { link: "Services", path: "service" },
     { link: "Projets", path: "projet" },
+    { link: "Stack", path: "skills" },
   ];
 
   return (
