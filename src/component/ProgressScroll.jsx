@@ -15,7 +15,7 @@ function ProgressScroll() {
           height: 5,
           transformOrigin: "0%",
         }}
-        className=" bg-blue-400 dark:bg-gradient-to-r dark:from-indigo-500 dark:from-10% dark:via-sky-500 dark:via-30% dark:to-emerald-500 dark:to-90% ..."
+        className=" bg-blue-400"
       ></motion.div>
     </>
   );
