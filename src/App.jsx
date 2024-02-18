@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <div className=" max-w-full">
+      <div className="">
         <ProgressScroll />
         <div className="md:px-14 px-12 max-w-screen-2xl mx-auto">
           <div className=" rounded-tl-md rounded-tr-md md:mx-8 mx-6 px-5 py-4 md:mt-8 mt-6 fixed top-0 right-0 left-0">
