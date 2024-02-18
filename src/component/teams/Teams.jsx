@@ -21,7 +21,7 @@ function Teams() {
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/new/avatars/1.png"
+                        src="https://portfolio-omega-two-26.vercel.app/1.png"
                         className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                         alt="Avatar"
                       />
@@ -85,7 +85,7 @@ function Teams() {
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/new/avatars/4.png"
+                        src="https://portfolio-omega-two-26.vercel.app/4.png"
                         className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                         alt="Avatar"
                       />
@@ -147,7 +147,7 @@ function Teams() {
                   <div className="flex justify-center">
                     <div className="flex justify-center -mt-[75px]">
                       <img
-                        src="https://mdbcdn.b-cdn.net/img/new/avatars/3.png"
+                        src="https://portfolio-omega-two-26.vercel.app/3.png"
                         className="mx-auto rounded-full shadow-lg dark:shadow-black/20 w-[150px]"
                         alt="Avatar"
                       />
@@ -157,9 +157,7 @@ function Teams() {
                     <h5 className="mb-4 text-lg font-bold dark:text-white">
                       Mans Consulting
                     </h5>
-                    <p className="mb-6 dark:text-slate-300">
-                      Informatique
-                    </p>
+                    <p className="mb-6 dark:text-slate-300">Informatique</p>
                     <ul className="mx-auto flex list-inside justify-center">
                       <a href="#!" className="px-2 dark:text-slate-300">
                         <svg
