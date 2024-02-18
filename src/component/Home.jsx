@@ -15,10 +15,10 @@ function Home() {
           viewport={{ once: false, amount: 0.7 }}
           className=" text-center mt-12"
         >
-          <h1 className=" text-xl md:text-2xl mt-10 mb-1 md:mb-3 text-blue-400 font-semibold font-jost">
+          <h1 className=" text-xl md:text-2xl mt-10 mb-1 md:mb-3 text-slate-900 dark:text-blue-400 font-bold font-jost">
             Hey, je suis Robert Matundu,{" "}
           </h1>
-          <h2 className="text-lg font-bold dark:text-white text-violet-950 md:text-2xl sm:text-2xl">
+          <h2 className="font-bold dark:text-white text-green-500 md:text-2xl text-2xl">
             -Développeur Web
           </h2>
           <p className=" text-lg md:text-xl px-7 max-w-md text-slate-500 dark:text-gray-300 mb-3">
