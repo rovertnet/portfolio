@@ -16,7 +16,7 @@ function About() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className=" text-lg text-gray-600 dark:text-slate-300 md:px-8 px-6 text-justify max-w-4xl"
+          className=" text-lg text-gray-600 dark:text-slate-300 md:px-8 px-6 text-justify"
         >
           En tant que professionnel du développement web et de l'ingénierie
           logicielle, ma mission principale est de concevoir et mettre en œuvre
