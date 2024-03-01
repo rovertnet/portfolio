@@ -23,8 +23,7 @@ function Home() {
           </h2>
           <p className=" text-lg md:text-xl px-7 max-w-md text-slate-500 dark:text-gray-300 mb-3">
             En tant que Développeur Web passionné, je conçois des expériences en
-            ligne exceptionnelles en utilisant des langages tels que HTML, CSS
-            et JavaScript.
+            ligne exceptionnelles en utilisant des langages tels que HTML, CSS, JavaScript et PHP.
           </p>
           <motion.a
             whileHover={{
