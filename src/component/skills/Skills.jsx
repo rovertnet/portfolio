@@ -10,7 +10,7 @@ import { FaLaravel } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import { SiPostman } from "react-icons/si";
+import { FaSymfony } from "react-icons/fa6";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../Variants";
 
@@ -86,8 +86,8 @@ function Skills() {
                   MongoDB
                 </span>
                 <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
-                  <SiPostman className=" text-2xl md:text-2xl text-orange-500" />
-                  PostMan
+                  <FaSymfony className=" text-2xl md:text-2xl text-black" />
+                  Symfony
                 </span>
                 <span className=" text-slate-700 dark:text-slate-500 flex gap-2 font-medium text-lg md:text-xl">
                   <TbBrandMysql className=" text-2xl md:text-2xl text-slate-800 dark:text-white" />
