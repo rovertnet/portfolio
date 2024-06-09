@@ -5,10 +5,10 @@ import { FaArrowUp } from "react-icons/fa";
 
 function About() {
   return (
-    <div className="block max-w-screen-2xl">
+    <div className="block ">
       <div
         id="about"
-        className=" flex flex-col md:flex-row items-center justify-center gap-5 md:gap-3 py-6 md:px-16"
+        className=" flex flex-col md:flex-row items-center justify-center gap-5 md:gap-3 py-6"
       >
         <div className="w-full md:w-6/6">
           <SectionTitle>A propos</SectionTitle>

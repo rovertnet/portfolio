@@ -6,7 +6,7 @@ import {motion} from "framer-motion";
 
 function Work() {
   return (
-    <div className="md:px-16 md:py-10 py-14 block" id="projet">
+    <div className="md:py-10 py-14 block" id="projet">
       <SectionTitle id="works">Projets récents</SectionTitle>
       <motion.div
         variants={fadeIn("up", 0.5)}
