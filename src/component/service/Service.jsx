@@ -6,7 +6,7 @@ import { fadeIn } from "../../Variants";
 
 function Service() {
   return (
-    <div className=" py-6" id="service">
+    <div className=" block py-6" id="service">
       <SectionTitle>Services</SectionTitle>
       <motion.div
         variants={fadeIn("up", 0.5)}

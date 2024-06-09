@@ -137,7 +137,7 @@ function App() {
           </div>
         </div>
 
-        <div className="bg:white dark:bg-slate-900">
+        <div className="bg:white dark:bg-slate-900 block">
           <Home />
           <About />
           <Service />
