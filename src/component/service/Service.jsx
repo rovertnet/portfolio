@@ -6,14 +6,14 @@ import { fadeIn } from "../../Variants";
 
 function Service() {
   return (
-    <div className=" block py-6" id="service">
+    <div className=" block py-6 md:mx-14 mx-4" id="service">
       <SectionTitle>Services</SectionTitle>
       <motion.div
         variants={fadeIn("up", 0.5)}
         initial="hidden"
         whileInView={"show"}
         viewport={{ once: false, amount: 0.7 }}
-        className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-2"
+        className=" grid grid-cols-1 md:grid-cols-2 gap-10"
       >
         {Data.map((dats) => (
           <Items
