@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 function Footer() {
   return (
-    <div className=" md:mx-8 mx-6 py-5 bg-slate-400 dark:bg-slate-800 rounded-t-md px-3 text-center">
+    <div className=" md:mx-24 mx-10 py-5 bg-slate-400 dark:bg-slate-800 rounded-t-md px-3 text-center">
       <motion.a
         initial={{ opacity: 0, y: "-100px" }}
         animate={{ opacity: 1, y: 0 }}
